@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-empty",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "eslint9 common config ",
   "main": "./index.js",
   "dependencies": {
@@ -32,7 +32,7 @@
     "typescript": ">=4.5.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "keywords": [
     "eslint",
@@ -46,6 +46,18 @@
     "prettier.js",
     "typeScript.js"
   ],
-  "author": "D",
-  "license": "ISC"
+  "author": "3mpt",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3mpt/eslint-config-empty.git"
+  },
+  "bugs": {
+    "url": "https://github.com/3mpt/eslint-config-empty/issues"
+  },
+  "homepage": "https://github.com/3mpt/eslint-config-empty#readme",
+  "publishConfig": {
+   "@3mpt:registry": "https://npm.pkg.github.com"
+ }
+
 }
