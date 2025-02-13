@@ -1,6 +1,6 @@
 {
-  "name": "@3mpt/eslint-config-empty",
-  "version": "0.1.0",
+  "name": "eslint-config-empty",
+  "version": "0.1.1",
   "description": "eslint9 common config ",
   "main": "./index.js",
   "dependencies": {
@@ -55,8 +55,5 @@
   "bugs": {
     "url": "https://github.com/3mpt/eslint-config-empty/issues"
   },
-  "homepage": "https://github.com/3mpt/eslint-config-empty#readme",
-  "publishConfig": {
-    "@3mpt/registry": "https://npm.pkg.github.com"
-  }
+  "homepage": "https://github.com/3mpt/eslint-config-empty#readme"
 }
