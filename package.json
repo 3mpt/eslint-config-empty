@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-empty",
+  "name": "@3mpt/eslint-config-empty",
   "version": "0.1.0",
   "description": "eslint9 common config ",
   "main": "./index.js",
