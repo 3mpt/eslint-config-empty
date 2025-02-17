@@ -1,6 +1,4 @@
 const perfectionist = require('eslint-plugin-perfectionist')
-// const { fixupPluginRules } = require('@eslint/compat')
-// const importsSorter = require('eslint-plugin-imports-sorter')
 const eslintPluginPrettierRecommended = require('eslint-plugin-prettier/recommended')
 const unusedImports = require('eslint-plugin-unused-imports')
 const globals = require('globals')
@@ -21,7 +19,6 @@ module.exports = [
     },
     plugins: {
       'unused-imports': unusedImports,
-      // importsSorter: fixupPluginRules(importsSorter),
     },
     rules: {
       'no-debugger': 'error', // 禁止使用 debugger
@@ -88,14 +85,6 @@ module.exports = [
       'no-new': 'warn', // 禁止使用 `new` 创建实例化对象后不赋值，给出警告
       'no-useless-escape': 'off', // 允许某些字符转义
       'space-before-function-paren': 'off', // 允许或禁止函数圆括号之前有一个空格
-      // 'importsSorter/sorter': [
-      //   2, // 强制排序
-      //   {
-      //     isCheckEmptyLine: true, // 检查空行
-      //     isCheckDeepth: true, // 检查深度
-      //     alias: ['src', 'lib', '@'], // 自定义别名
-      //   },
-      // ],
     },
   },
   {
